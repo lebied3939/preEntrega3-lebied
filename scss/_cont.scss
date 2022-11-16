@@ -1,0 +1,46 @@
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    color:goldenrod;
+    font-weight: bold;
+}
+
+
+
+@mixin fondos {
+  
+  width: auto;
+  height: 400px;
+ 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 1rem;
+}
+
+
+  .fondo{
+    @include fondos;
+    background-image: url(https://image.nuevayork.com/wp-content/uploads/2021/05/Butler-coffee.jpg.webp);
+    filter: brightness(0.5); 
+
+  }
+
+  .fondo2 {
+   @include fondos;
+    background-image: url(http://mundodelcafe.es/wp-content/uploads/2015/04/cafe_solo.jpg);
+   
+
+  }
+
+  .centrados{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
