@@ -9,12 +9,22 @@ html body {
   overflow-x: hidden;
 }
 
+.card-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .nav-link {
   color: #fafafa;
 }
 
 .navbar-brand {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.navbar * {
+  font-size: 2rem;
 }
 
 /*HERO*/
@@ -191,7 +201,7 @@ html body {
 }
 
 .card-body {
-  color: #282828;
+  color: #fafafa;
   font-size: 20px;
 }
 
@@ -271,6 +281,16 @@ html body {
   transform: translate(-50%, -50%);
 }
 
+.quinto {
+  text-align: center;
+}
+
+form * {
+  font-size: 2rem;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+
 .tipos-imagen {
   width: 400;
   height: 900;
@@ -278,6 +298,7 @@ html body {
 
 .parrafo {
   font-size: medium;
+  font-weight: 500;
 }
 
 .parrafo2 {
